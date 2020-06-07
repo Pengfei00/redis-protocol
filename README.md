@@ -17,8 +17,8 @@ replay := command.Text("error")
 
 array text replay
 res := make([]interface{}, 2)
-res[1] = "OK"
-res[2] = 1
+res[0] = "OK"
+res[1] = 1
 replay := command.Array(res)
 
 integers replay
